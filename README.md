@@ -8,7 +8,6 @@
 
 > **Antigravity IDE · Python Only · Groq API (LLM) Integration**  
 > An end-to-end intelligence engine that autonomously searches the live web, extracts and sanitizes content across disparate sources, evaluates source credibility, and synthesizes evidence-based answers with verified citations.
-
 ---
 
 ## 📌 Problem Statement
@@ -201,8 +200,7 @@ python cli.py "Compare solid-state batteries vs lithium-ion for EVs" --depth dee
 ```powershell
 python -m pytest tests/ -v
 ```
-All 11 unit and integration tests run and validate search, scraping, retrieval, credibility scoring, and synthesis.
-
+The test suite validates search, scraping, retrieval, credibility scoring, synthesis, and claim verification. The latest test run completed with 17 passing tests.
 ---
 
 ## 🧪 Evaluation & Test Results
@@ -227,6 +225,3 @@ tests/test_synthesizer.py::test_extractive_synthesis_fallback PASSED [100%]
 ```
 
 ---
-
-## 📜 License
-MIT License. Built with Antigravity IDE and Groq API.
