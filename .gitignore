@@ -19,3 +19,4 @@ ds-rpc-01-main/.venv/
 
 # Streamlit
 .streamlit/
+research_history.db
